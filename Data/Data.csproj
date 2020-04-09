@@ -1,0 +1,9 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <AssemblyName>HW4.Data</AssemblyName>
+    <RootNamespace>HW4.Data</RootNamespace>
+  </PropertyGroup>
+
+</Project>

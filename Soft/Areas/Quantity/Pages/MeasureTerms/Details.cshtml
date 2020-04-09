@@ -1,0 +1,21 @@
+﻿@page
+@using HW4.Aids
+@using HW4.Data.Quantity
+@using HW4.Pages.Extensions
+@model HW4.Soft.Areas.Quantity.Pages.MeasureTerms.DetailsModel
+
+@{
+    Layout = "_Details";
+}
+
+
+<body>
+    @Html.DisplayControlsFor(m => m.Item.MasterId)
+    @Html.DisplayControlsFor(m => m.Item.TermId)
+    @Html.DisplayControlsFor(m => m.Item.Power)
+    @Html.DisplayControlsFor(m => m.Item.ValidFrom)
+    @Html.DisplayControlsFor(m => m.Item.ValidTo)
+</body>
+
+@section Details {
+}

@@ -1,0 +1,14 @@
+﻿@page
+@using HW4.Pages.Extensions
+@model HW4.Soft.Areas.Quantity.Pages.MeasureTerms.CreateModel
+
+@{
+    Layout ="_Create";
+}
+    <body>
+        @Html.EditControlsForDropDown(m => m.Item.MasterId, Model.Measures)
+        @Html.EditControlsForDropDown(m => m.Item.TermId, Model.Measures)
+        @Html.EditControlsFor(m => m.Item.Power)
+        @Html.EditControlsFor(m => m.Item.ValidFrom)
+        @Html.EditControlsFor(m => m.Item.ValidTo)
+    </body>
